@@ -1,0 +1,99 @@
+.section-2 {
+  background: #505050;
+  footer {
+    padding: 69px 87px 0 87px;
+    .footer-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      align-items: center;
+
+      .footer-flex {
+        margin-bottom: 86px;
+      }
+
+      .footer-flex:nth-child(1) {
+        // margin-right: auto;
+        .line {
+          width: 58px;
+          height: 3px;
+          background-color: #fff;
+        }
+
+        h4 {
+          font-weight: bold;
+          font-size: 14px;
+          color: #ffffff;
+          margin-top: 9px;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          a {
+            margin-top: 9px;
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 14px;
+            color: #fff;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .footer-flex:nth-child(2) {
+        // margin-right: auto;
+        .line {
+          width: 58px;
+          height: 3px;
+          background-color: #fff;
+        }
+
+        h4 {
+          font-weight: bold;
+          font-size: 14px;
+          color: #ffffff;
+          margin-top: 9px;
+        }
+        ul {
+          display: flex;
+          flex-direction: column;
+          a {
+            margin-top: 9px;
+            text-decoration: none;
+            font-weight: normal;
+            font-size: 14px;
+            color: #fff;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+
+      .footer-flex:nth-child(5) {
+        ul {
+          margin-top: 27px;
+          display: flex;
+          justify-content: end;
+          gap: 12px;
+          a {
+            gap: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .music-store {
+    width: 100%;
+    background: #252525;
+    padding: 8px 87px;
+    p {
+      color: #fff;
+      font-weight: normal;
+      font-size: 12.8px;
+    }
+  }
+}

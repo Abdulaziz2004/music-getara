@@ -516,6 +516,125 @@
   margin-top: 4px;
 }
 
+.section-2 {
+  background: #505050;
+}
+
+.section-2 footer {
+  padding: 69px 87px 0 87px;
+}
+
+.section-2 footer .footer-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-2 footer .footer-grid .footer-flex {
+  margin-bottom: 86px;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(1) .line {
+  width: 58px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(1) h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 9px;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(1) ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(1) ul a {
+  margin-top: 9px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  color: #fff;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(1) ul a:hover {
+  text-decoration: underline;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(2) .line {
+  width: 58px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(2) h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 9px;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(2) ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(2) ul a {
+  margin-top: 9px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  color: #fff;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(2) ul a:hover {
+  text-decoration: underline;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(5) ul {
+  margin-top: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  gap: 12px;
+}
+
+.section-2 footer .footer-grid .footer-flex:nth-child(5) ul a {
+  gap: 12px;
+}
+
+.section-2 .music-store {
+  width: 100%;
+  background: #252525;
+  padding: 8px 87px;
+}
+
+.section-2 .music-store p {
+  color: #fff;
+  font-weight: normal;
+  font-size: 12.8px;
+}
+
 * {
   margin: 0;
   padding: 0;
