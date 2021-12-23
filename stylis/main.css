@@ -110,6 +110,412 @@
   margin-top: 16px;
 }
 
+.section-1 .cantainer-fluid .container {
+  padding: 0 87px;
+  margin-top: 181px;
+}
+
+.section-1 .cantainer-fluid .container .title {
+  text-align: center;
+}
+
+.section-1 .cantainer-fluid .container .title .line {
+  width: 80px;
+  height: 3px;
+  background-color: #ab0433;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1 .cantainer-fluid .container .title h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #505050;
+}
+
+.section-1 .cantainer-fluid .container .products-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 34px;
+  margin-bottom: 88px;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex {
+  background: #ffffff;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .images {
+  background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #fbfbfb 0%, #d3d3d3 100%);
+  border-radius: 10px 10px 0px 0px;
+  text-align: center;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .images img {
+  margin-top: -18px;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .brand-name {
+  -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  padding: 16px 24px 26px 24px;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .brand-name .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .brand-name .name h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .brand-name .poragrif {
+  font-weight: 500;
+  font-size: 16px;
+  color: #767676;
+  margin-top: 6px;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .brand-name .colors {
+  width: 123px;
+  height: 18px;
+  border: 1px solid #5050509d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .brand-name .colors p {
+  font-weight: normal;
+  font-size: 12px;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.section-1 .cantainer-fluid .container .products-grid .products-flex .brand-name .colors p span {
+  color: black;
+}
+
+.section-1 .cantainer-fluid .popular {
+  background: #ececec;
+  padding: 88px 87px 88px 87px;
+}
+
+.section-1 .cantainer-fluid .popular .popular-title {
+  text-align: center;
+}
+
+.section-1 .cantainer-fluid .popular .popular-title .line {
+  width: 80px;
+  height: 3px;
+  background-color: #ab0433;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1 .cantainer-fluid .popular .popular-title h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #505050;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  margin-top: 42px;
+  gap: 30px;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid .popular-flex {
+  padding: 0 24px 26px 24px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid .popular-flex img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid .popular-flex .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid .popular-flex .name h3 {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid .popular-flex .poragrif {
+  font-weight: 500;
+  font-size: 16px;
+  color: #767676;
+  margin-top: 6px;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid .popular-flex .colors {
+  width: 123px;
+  height: 18px;
+  border: 1px solid #5050509d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 18px;
+  border-radius: 5px;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid .popular-flex .colors p {
+  font-weight: normal;
+  font-size: 12px;
+  color: #505050;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+
+.section-1 .cantainer-fluid .popular .popular-grid .popular-flex .colors p span {
+  color: black;
+}
+
+.section-1 .cantainer-fluid .gear-heads {
+  padding: 88px 87px 88px 87px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads-title {
+  text-align: center;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads-title .line {
+  width: 80px;
+  height: 3px;
+  background-color: #ab0433;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads-title h1 {
+  font-weight: bold;
+  font-size: 40px;
+  color: #505050;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(1) {
+  border-radius: 10px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(1) .heads-flex {
+  background-image: url("/assets/icon/heades1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 487px;
+  border-radius: 10px 10px 0 0;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(1) .heades-footer {
+  padding: 32px;
+  background: #252525;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(1) .heades-footer h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(1) .heades-footer p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #c4c4c4;
+  margin-top: 4px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(2) .heads-flex {
+  background-image: url("/assets/icon/heades3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 487px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(2) .heades-footer {
+  padding: 32px;
+  background: #eaeaea;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(2) .heades-footer h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #202020;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads1-grid .title:nth-child(2) .heades-footer p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #767676;
+  margin-top: 4px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  margin-top: 48px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(1) {
+  border-radius: 10px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(1) .heads-flex {
+  background-image: url("/assets/icon/heades-4.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 487px;
+  border-radius: 10px 10px 0 0;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(1) .heades-footer {
+  padding: 32px;
+  background: #252525;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(1) .heades-footer h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(1) .heades-footer p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #c4c4c4;
+  margin-top: 4px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(2) .heads-flex {
+  background-image: url("/assets/icon/heades-5.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 487px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(2) .heades-footer {
+  padding: 32px;
+  background: #eaeaea;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(2) .heades-footer h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #202020;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(2) .heades-footer p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #767676;
+  margin-top: 4px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(3) .heads-flex {
+  background-image: url("/assets/icon/heades-6.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 487px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(3) .heades-footer {
+  padding: 32px;
+  background: #252525;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(3) .heades-footer h3 {
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+}
+
+.section-1 .cantainer-fluid .gear-heads .heads2-grid .title:nth-child(3) .heades-footer p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #c4c4c4;
+  margin-top: 4px;
+}
+
 * {
   margin: 0;
   padding: 0;
