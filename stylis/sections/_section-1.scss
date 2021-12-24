@@ -63,7 +63,7 @@
 
       .position-botoom {
         width: 100%;
-        padding: 49px 325px 49px 325px;
+        padding: 49px 0 49px 0;
         position: absolute;
         top: 500px;
 
@@ -124,7 +124,7 @@
         }
       }
 
-      .products-grid {
+      .products-grid {  
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
@@ -443,6 +443,46 @@
             }
           }
         }
+      }
+    }
+  }
+}
+
+// media 1200px start styling
+
+@media (max-width: 1200px) {
+  .section-1 {
+    header {
+      padding: 63px 64px 0 64px;
+
+      .navigation {
+        position: relative;
+        .navbar {
+          .position-botoom {
+            padding: 49px 0 49px 0;
+          }
+        }
+      }
+    }
+    .cantainer-fluid {
+      .container {
+        padding: 0 64px;
+
+        .products-grid{
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .popular {
+        padding: 88px 64px 88px 64px;
+
+        .popular-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      }
+
+      .gear-heads{
+        padding: 88px 64px 88px 64px;
       }
     }
   }

@@ -70,7 +70,7 @@
 
 .section-1 header .navigation .position-botoom {
   width: 100%;
-  padding: 49px 325px 49px 325px;
+  padding: 49px 0 49px 0;
   position: absolute;
   top: 500px;
   background: url("/assets/icon/Rectangle 81.svg"), #ab0433;
@@ -516,6 +516,35 @@
   margin-top: 4px;
 }
 
+@media (max-width: 1200px) {
+  .section-1 header {
+    padding: 63px 64px 0 64px;
+  }
+  .section-1 header .navigation {
+    position: relative;
+  }
+  .section-1 header .navigation .navbar .position-botoom {
+    padding: 49px 0 49px 0;
+  }
+  .section-1 .cantainer-fluid .container {
+    padding: 0 64px;
+  }
+  .section-1 .cantainer-fluid .container .products-grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .section-1 .cantainer-fluid .popular {
+    padding: 88px 64px 88px 64px;
+  }
+  .section-1 .cantainer-fluid .popular .popular-grid {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .section-1 .cantainer-fluid .gear-heads {
+    padding: 88px 64px 88px 64px;
+  }
+}
+
 .section-2 {
   background: #505050;
 }
@@ -633,6 +662,12 @@
   color: #fff;
   font-weight: normal;
   font-size: 12.8px;
+}
+
+@media (max-width: 1200px) {
+  .section-2 footer {
+    padding: 64px 64px 0 64px;
+  }
 }
 
 * {
